@@ -1,0 +1,59 @@
+.about_heading h2{
+    font-family: "Lugrasimo", cursive;
+    color: #d2a556;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.about_heading p{
+    font-family: "Lugrasimo", cursive;
+    line-height: 70px;
+    font-size: 1.2rem;
+}
+.shadow__custom{
+        filter: drop-shadow(20px 10px 0.75rem rgba(0, 0, 0, 0.7));
+}
+.prepared_section{
+    line-height: 60px;
+}
+.prepared_section h2{
+    font-family: "Briem Hand", cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.prepared_section h3{
+    font-family: "Lugrasimo", cursive;
+    color: #d2a556;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.prepared_section p{
+    font-family: "Platypi", serif;
+    font-size: 1.1rem;
+}
+.about__restaurant p{
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Platypi",sans-serif;
+}
+.about__interior{
+    line-height: 70px;
+}
+.about__interior h2{
+    font-family: "Lugrasimo", cursive;
+    font-size: 1.8rem;  
+    color: #d2a556;
+    line-height: 50px;
+}
+.about__interior h3{
+    font-size: 3rem;
+    font-family: "Briem Hand", cursive;
+    font-weight: 700;
+}
+.about__interior p{
+    font-family: 'Platypi',serif;
+    line-height: 40px;
+    margin-top: 20px;
+}

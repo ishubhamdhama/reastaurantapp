@@ -1,0 +1,30 @@
+.dishes__scroll{
+    font-family: "Briem Hand", cursive;
+    color: #d3a556;
+}
+.home__display1 h2{
+    font-family: "Lugrasimo", cursive;
+    font-size: 1.8rem;  
+    color: #d2a556;
+    line-height: 50px;
+}
+.home__display1 p{
+    font-family: 'Platypi',serif;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.home__shadow__custom{
+    filter: drop-shadow(20px 10px 0.75rem rgba(0, 0, 0, 0.7));
+}
+.home__display2 h2{
+    font-family: "Lugrasimo", cursive;
+    font-size: 1.8rem;  
+    color: #d2a556;
+    line-height: 50px;
+}
+
+.home__display2 p{
+    font-family: 'Platypi',serif;
+    line-height: 40px;
+    margin-top: 20px;
+}

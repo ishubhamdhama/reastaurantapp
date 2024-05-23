@@ -1,0 +1,72 @@
+/* TableBooking.css */
+
+
+.time-period-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if the buttons exceed the container width */
+}
+
+.time-period-list li {
+    margin-right: 10px;
+}
+
+.time-period-list button {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.time-period-list button.active {
+    background-color: #E5E7EB;
+    border-color: #CBD5E0;
+    font-weight: bold; /* Make the active button bold */
+}
+
+.time-slot-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 columns with equal width */
+    gap: 5px; /* Add some gap between grid items */
+    padding: 0;
+}
+
+.time-slot-list li {
+    margin-bottom: 10px;
+}
+
+.time-slot-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.time-slot-btn:hover {
+    background-color: #E5E7EB;
+    border-color: #CBD5E0;
+}
+
+.time-period-btn{
+    border-radius: 10px;
+}
+.time-period-btn:hover{
+    box-shadow: 3px 3px 1px black;
+    transition: all 0.2s ease-in;
+}
+
+.table__booking__input{
+    margin-top: 10px;
+}
+.table__booking__input input{
+    border: 1px solid black;
+}
+.time-period-heading{
+    font-family: "Platypi", serif;
+    font-size: 2.2rem;
+}
